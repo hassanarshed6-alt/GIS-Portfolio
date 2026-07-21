@@ -2,7 +2,7 @@
 
 A supervised remote sensing classification of Jhelum District, Punjab, Pakistan into five land cover classes, built entirely in Google Earth Engine using Sentinel-2 imagery, a hybrid training strategy, and a Random Forest classifier — refined through iterative, diagnosed improvements to spectral confusion.
 
-📄 [Full Project Documentation (PDF)](./report/Jhelum_LULC_Project_Documentation.pdf) &nbsp;|&nbsp; 💻 [GEE Script](./code/lulc_classification_gee.js)
+📄 [Full Project Documentation (PDF)](Project01_LULC_Classification/Report/Jhelum_LULC_Project_Documentation_M.pdf) &nbsp;|&nbsp; 💻 [GEE Script](Project01_LULC_Classification/Code/Gee.js)
 
 ---
 
@@ -58,7 +58,7 @@ Classify the district into five land cover categories — **Water, Vegetation, A
 
 ## 🗺️ Final Classification Map
 
-![Final LULC Classification Map](./maps/final_classification_map.png)
+![Final LULC Classification Map](Project01_LULC_Classification/Maps/Jhelum_LULC_Map.png)
 
 *Includes classified raster, legend, scale bar, north arrow, and a Pakistan-wide locator inset.*
 
@@ -66,19 +66,19 @@ Classify the district into five land cover categories — **Water, Vegetation, A
 
 <table>
 <tr>
-<td><img src="./layers/03_dry_composite_truecolor.png" width="100%"/><br/><sub>Dry Season True Color</sub></td>
-<td><img src="./layers/04_dry_composite_falsecolor.png" width="100%"/><br/><sub>Dry Season False Color</sub></td>
-<td><img src="./layers/09_wet_composite_truecolor.png" width="100%"/><br/><sub>Wet Season True Color</sub></td>
+<td><img src="Project01_LULC_Classification/Layers/03_DrySeason_Composite_TrueColor.png" width="100%"/><br/><sub>Dry Season True Color</sub></td>
+<td><img src="Project01_LULC_Classification/Layers/04_DrySeason_Composite_FalseColor.png" width="100%"/><br/><sub>Dry Season False Color</sub></td>
+<td><img src="Project01_LULC_Classification/Layers/10_WetSeason_Composite_TrueColor.png" width="100%"/><br/><sub>Wet Season True Color</sub></td>
 </tr>
 <tr>
-<td><img src="./layers/05_dry_ndvi.png" width="100%"/><br/><sub>NDVI (Dry Season)</sub></td>
-<td><img src="./layers/06_dry_ndwi.png" width="100%"/><br/><sub>NDWI (Water Index)</sub></td>
-<td><img src="./layers/07_dry_ndbi.png" width="100%"/><br/><sub>NDBI (Built-up Index)</sub></td>
+<td><img src="Project01_LULC_Classification/Layers/05_DrySeason_NDVI.png" width="100%"/><br/><sub>NDVI (Dry Season)</sub></td>
+<td><img src="Project01_LULC_Classification/Layers/06_DrySeason_NDWI.png" width="100%"/><br/><sub>NDWI (Dry Season)</sub></td>
+<td><img src="Project01_LULC_Classification/Layers/07_DrySeason_NDBI.png" width="100%"/><br/><sub>NDBI (Dry Season)</sub></td>
 </tr>
 <tr>
-<td><img src="./layers/11_seasonal_ndvi_change.png" width="100%"/><br/><sub>Seasonal NDVI Change</sub></td>
-<td><img src="./layers/12_texture_glcm.png" width="100%"/><br/><sub>GLCM Texture (Contrast)</sub></td>
-<td><img src="./layers/13_reference_worldcover.png" width="100%"/><br/><sub>Reference: ESA WorldCover</sub></td>
+<td><img src="Project01_LULC_Classification/Layers/12_Seasonal_NDVI_Change_WetMinusDry.png" width="100%"/><br/><sub>Seasonal NDVI Change</sub></td>
+<td><img src="Project01_LULC_Classification/Layers/09_Texture_GLCM_Contrast.png" width="100%"/><br/><sub>GLCM Texture (Contrast)</sub></td>
+<td><img src="Project01_LULC_Classification/Layers/13_Reference_ESA_WorldCover_Reclassified.png" width="100%"/><br/><sub>Reference: ESA WorldCover</sub></td>
 </tr>
 </table>
 
@@ -87,3 +87,13 @@ Classify the district into five land cover categories — **Water, Vegetation, A
 `Google Earth Engine (JavaScript API)` · `Sentinel-2` · `ESA WorldCover` · `Random Forest` · `QGIS` · `GLCM Texture Analysis`
 
 ## 📁 Repository Contents
+
+## 👤 Author
+
+**Muneeb Ul Hassan**
+Space Science/Astrophysics background transitioning into GIS & Remote Sensing.
+[LinkedIn]([#](https://www.linkedin.com/in/muneeb-ul-hassan-40b6a822b/)) · [GitHub]([#](https://github.com/hassanarshed6-alt))
+
+---
+
+*Project 1 of 15 in a self-directed GIS & Remote Sensing portfolio series.*
