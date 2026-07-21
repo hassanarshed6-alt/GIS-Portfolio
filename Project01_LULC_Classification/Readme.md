@@ -53,7 +53,7 @@ Classify the district into five land cover categories — **Water, Vegetation, A
 
 <p float="left">
   <img src="./Charts/Pie_Chart_Area.png" width="45%" />
-  <img src="./Charts/Bar_Graph_Area.png" width="45%" />
+  <img src="./Charts/Bar_Graph_Area.png" width="70%" />
 </p>
 
 ## 🗺️ Final Classification Map
