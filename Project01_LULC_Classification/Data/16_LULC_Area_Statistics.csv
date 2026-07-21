@@ -1,0 +1,6 @@
+system:index,area_km2,class,className,percentage,total_area_km2,.geo
+0,124.12616605185468,0,Water,3.432581969664486,3616.116589460127,"{""type"":""MultiPoint"",""coordinates"":[]}"
+1,1304.6290277300222,1,Vegetation,36.07817932454436,3616.116589460127,"{""type"":""MultiPoint"",""coordinates"":[]}"
+2,1357.483763444274,2,Agriculture,37.53982289732924,3616.116589460127,"{""type"":""MultiPoint"",""coordinates"":[]}"
+3,522.3214804297083,3,Bare Soil,14.44426548502655,3616.116589460127,"{""type"":""MultiPoint"",""coordinates"":[]}"
+4,307.5561518042678,4,Built-up,8.505150323435362,3616.116589460127,"{""type"":""MultiPoint"",""coordinates"":[]}"
