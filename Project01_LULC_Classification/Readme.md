@@ -2,7 +2,7 @@
 
 A supervised remote sensing classification of Jhelum District, Punjab, Pakistan into five land cover classes, built entirely in Google Earth Engine using Sentinel-2 imagery, a hybrid training strategy, and a Random Forest classifier — refined through iterative, diagnosed improvements to spectral confusion.
 
-📄 [Full Project Documentation (PDF)](./Report/Jhelum_LULC_Project_Documentation_M.pdf) &nbsp;|&nbsp; 💻 [GEE Script](/Code/Gee.js)
+📄 [Full Project Documentation (PDF)](./Report/Jhelum_LULC_Project_Documentation_M.pdf) &nbsp;|&nbsp; 💻 [GEE Script](./Code/Gee.js)
 
 ---
 
@@ -52,8 +52,8 @@ Classify the district into five land cover categories — **Water, Vegetation, A
 | 🟥 Built-up | 307.56 | 8.51% |
 
 <p float="left">
-  <img src="./layers/charts/pie_chart.png" width="45%" />
-  <img src="./layers/charts/bar_chart.png" width="45%" />
+  <img src="./Charts/Pie_Chart_Area.png" width="45%" />
+  <img src="./Charts/Bar_Graph_Area.png" width="45%" />
 </p>
 
 ## 🗺️ Final Classification Map
