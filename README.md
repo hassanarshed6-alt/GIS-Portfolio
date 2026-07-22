@@ -42,7 +42,7 @@ Each project follows a consistent, complete workflow: **theory → data acquisit
 
 A 5-class supervised classification of Jhelum District achieving **92.35% accuracy** (independent validation) and **77.15% accuracy** (whole-district test), built with a hybrid training strategy, seasonal spectral analysis, and GLCM texture features to resolve real classification confusion — fully documented with a dual-metric accuracy assessment methodology.
 
-➡️ [View full project, code, and documentation](./01-lulc-classification-jhelum)
+➡️ [View full project, code, and documentation](./Project01_LULC_Classification)
 
 ---
 
