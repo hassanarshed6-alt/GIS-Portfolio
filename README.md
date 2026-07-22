@@ -20,7 +20,7 @@ Each project follows a consistent, complete workflow: **theory → data acquisit
 
 | # | Project | Data / Tools | Status |
 |---|---|---|---|
-| 01 | [Land Use Land Cover Classification — Jhelum District](.Project01_LULC_Classification) | Sentinel-2, ESA WorldCover, Random Forest, GEE, QGIS | ✅ Complete |
+| 01 | [Land Use Land Cover Classification — Jhelum District](./Project01_LULC_Classification) | Sentinel-2, ESA WorldCover, Random Forest, GEE, QGIS | ✅ Complete |
 | 02 | Urban Expansion Mapping | Landsat archives, GEE, ArcGIS Pro | 🔜 Planned |
 | 03 | Air Pollution Hotspot Detection | Sentinel-5P TROPOMI, GEE | 🔜 Planned |
 | 04 | Healthcare Accessibility Mapping | OpenStreetMap, QGIS Network Analysis | 🔜 Planned |
