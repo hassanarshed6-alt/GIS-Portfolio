@@ -58,7 +58,7 @@ Classify the district into five land cover categories — **Water, Vegetation, A
 
 ## 🗺️ Final Classification Map
 
-![Final LULC Classification Map](Project01_LULC_Classification/Maps/Jhelum_LULC_Map.png)
+![Final LULC Classification Map](./Maps/Jhelum_LULC_Map.png)
 
 *Includes classified raster, legend, scale bar, north arrow, and a Pakistan-wide locator inset.*
 
@@ -66,19 +66,19 @@ Classify the district into five land cover categories — **Water, Vegetation, A
 
 <table>
 <tr>
-<td><img src="Project01_LULC_Classification/Layers/03_DrySeason_Composite_TrueColor.png" width="100%"/><br/><sub>Dry Season True Color</sub></td>
-<td><img src="Project01_LULC_Classification/Layers/04_DrySeason_Composite_FalseColor.png" width="100%"/><br/><sub>Dry Season False Color</sub></td>
-<td><img src="Project01_LULC_Classification/Layers/10_WetSeason_Composite_TrueColor.png" width="100%"/><br/><sub>Wet Season True Color</sub></td>
+<td><img src="./Layers/03_DrySeason_Composite_TrueColor.png" width="100%"/><br/><sub>Dry Season True Color</sub></td>
+<td><img src="./Layers/04_DrySeason_Composite_FalseColor.png" width="100%"/><br/><sub>Dry Season False Color</sub></td>
+<td><img src="./Layers/10_WetSeason_Composite_TrueColor.png" width="100%"/><br/><sub>Wet Season True Color</sub></td>
 </tr>
 <tr>
-<td><img src="Project01_LULC_Classification/Layers/05_DrySeason_NDVI.png" width="100%"/><br/><sub>NDVI (Dry Season)</sub></td>
-<td><img src="Project01_LULC_Classification/Layers/06_DrySeason_NDWI.png" width="100%"/><br/><sub>NDWI (Dry Season)</sub></td>
-<td><img src="Project01_LULC_Classification/Layers/07_DrySeason_NDBI.png" width="100%"/><br/><sub>NDBI (Dry Season)</sub></td>
+<td><img src="./Layers/05_DrySeason_NDVI.png" width="100%"/><br/><sub>NDVI (Dry Season)</sub></td>
+<td><img src="./Layers/06_DrySeason_NDWI.png" width="100%"/><br/><sub>NDWI (Dry Season)</sub></td>
+<td><img src="./Layers/07_DrySeason_NDBI.png" width="100%"/><br/><sub>NDBI (Dry Season)</sub></td>
 </tr>
 <tr>
-<td><img src="Project01_LULC_Classification/Layers/12_Seasonal_NDVI_Change_WetMinusDry.png" width="100%"/><br/><sub>Seasonal NDVI Change</sub></td>
-<td><img src="Project01_LULC_Classification/Layers/09_Texture_GLCM_Contrast.png" width="100%"/><br/><sub>GLCM Texture (Contrast)</sub></td>
-<td><img src="Project01_LULC_Classification/Layers/13_Reference_ESA_WorldCover_Reclassified.png" width="100%"/><br/><sub>Reference: ESA WorldCover</sub></td>
+<td><img src="./Layers/12_Seasonal_NDVI_Change_WetMinusDry.png" width="100%"/><br/><sub>Seasonal NDVI Change</sub></td>
+<td><img src="./Layers/09_Texture_GLCM_Contrast.png" width="100%"/><br/><sub>GLCM Texture (Contrast)</sub></td>
+<td><img src="./Layers/13_Reference_ESA_WorldCover_Reclassified.png" width="100%"/><br/><sub>Reference: ESA WorldCover</sub></td>
 </tr>
 </table>
 
