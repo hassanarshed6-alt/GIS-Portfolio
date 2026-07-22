@@ -81,14 +81,13 @@ Classify the district into five land cover categories — **Water, Vegetation, A
 <td><img src="./Layers/13_Reference_ESA_WorldCover_Reclassified.png" width="100%"/><br/><sub>Reference: ESA WorldCover</sub></td>
 </tr>
 <tr>
-<td><img src="./Layers/08_DrySeason_Brightness.png" width="100%"/><br/><sub>Dry Season True Color</sub></td>
-<td><img src="./Layers/09_Texture_GLCM_Contrast.png" width="100%"/><br/><sub>Dry Season True Color</sub></td>
-<td><img src="./Layers/11_WetSeason_NDVI.png" width="100%"/><br/><sub>Dry Season True Color</sub></td>
+<td><img src="./Layers/01_StudyArea_Boundary_Jhelum.png" width="100%"/><br/><sub>Study Area Boundary (Jhelum District)</sub></td>
+<td><img src="./Layers/02_DrySeason_SingleRawScene_TrueColor.png" width="100%"/><br/><sub>Dry Season (Single Raw Scene)</sub></td>
+<td><img src="./Layers/14_AutomatedTrainingPoints.png" width="100%"/><br/><sub>Automated Training Points</sub></td>
 </tr>
 <tr>
-<td><img src="./Layers/01_StudyArea_Boundary_Jhelum.png" width="100%"/><br/><sub>Dry Season True Color</sub></td>
-<td><img src="./Layers/02_DrySeason_SingleRawScene_TrueColor.png" width="100%"/><br/><sub>Dry Season True Color</sub></td>
-<td><img src="./Layers/14_AutomatedTrainingPoints.png" width="100%"/><br/><sub>Dry Season True Color</sub></td>
+<td><img src="./Layers/08_DrySeason_Brightness.png" width="100%"/><br/><sub>Dry Season Brightness</sub></td>
+<td><img src="./Layers/11_WetSeason_NDVI.png" width="100%"/><br/><sub>NDVI (Wet Season)</sub></td>
 </tr>
 </table>
 
