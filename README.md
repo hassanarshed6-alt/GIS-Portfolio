@@ -57,7 +57,10 @@ Institute of Space Technology (IST), Islamabad
 
 I'm transitioning from a Space Science/Astrophysics background into GIS & Remote Sensing, applying strong quantitative and analytical foundations to satellite-based spatial analysis. This portfolio represents self-directed, hands-on project work built to demonstrate practical readiness for GIS/Remote Sensing analyst roles.
 
-**Connect:** [LinkedIn]([#](https://www.linkedin.com/in/muneeb-ul-hassan-40b6a822b/)) · [GitHub]([#](https://github.com/hassanarshed6-alt)) · Email: [hassanarshed6@gmail.com]
+**Connect:** 
+LinkedIn: [https://www.linkedin.com/in/muneeb-ul-hassan-40b6a822b/]  
+GitHub: [https://github.com/hassanarshed6-alt] 
+Email: [hassanarshed6@gmail.com]
 
 ---
 
