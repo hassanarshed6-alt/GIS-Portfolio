@@ -52,8 +52,8 @@ Classify the district into five land cover categories — **Water, Vegetation, A
 | 🟥 Built-up | 307.56 | 8.51% |
 
 <p float="left">
-  <img src="./Charts/Pie_Chart_Area.png" width="45%" />
-  <img src="./Charts/Bar_Graph_Area.png" width="70%" />
+  <img src="./Charts/Pie_Chart_Area.png" width="50%" />
+  <img src="./Charts/Bar_Graph_Area.png" width="60%" />
 </p>
 
 ## 🗺️ Final Classification Map
