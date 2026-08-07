@@ -8,19 +8,24 @@ each was georeferenced, digitized into a topologically clean vector layer,
 attributed against the jurisdiction's actual zoning ordinance, and produced
 as a final cartographic map.
 
-## Case studies in this series
+## Case Studies in This Series
 
 | # | Jurisdiction | State | Folder |
-|---|---|---|---|---|
-| 01 | Village of Franklinville | NY | `01-NY-Village_of_Franklinville` 
-| 02 | City of Simpsonville | SC | `02-SC_City_of_Simpsonville` 
-| 03 | Town of Fyffe | AL | `03-AL_Town_of_Fyffe` 
-| 04 | City of Pekin | IL | `04-IL_City_of_Pekin` 
-| 05 | Town of Summerville | SC | `05-SC_Town_of_Summerville` 
-| 06 | City of Shawnee | OK | `06-OK_City_of_Shawnee` 
-Each subfolder is a self-contained case study with its own README covering
-that jurisdiction's specific ordinance, CRS/UTM zone, GCP count, feature
-count, and zoning classification results.
+|:-:|--------------|:-----:|--------|
+| 01 | Village of Franklinville | NY | `01-NY-Village_of_Franklinville` |
+| 02 | City of Simpsonville | SC | `02-SC_City_of_Simpsonville` |
+| 03 | Town of Fyffe | AL | `03-AL_Town_of_Fyffe` |
+| 04 | City of Pekin | IL | `04-IL_City_of_Pekin` |
+| 05 | Town of Summerville | SC | `05-SC_Town_of_Summerville` |
+| 06 | City of Shawnee | OK | `06-OK_City_of_Shawnee` |
+
+Each subfolder is a self-contained case study with its own **README.md** documenting:
+
+- Zoning ordinance source
+- Coordinate Reference System (CRS) / UTM Zone
+- Georeferencing control points (GCPs)
+- Digitized feature count
+- Zoning classifications and results
 
 ## Common workflow across all five
 
