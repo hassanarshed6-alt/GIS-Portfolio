@@ -10,7 +10,7 @@ as a final cartographic map.
 
 ## Case studies in this series
 
-| # | Jurisdiction | State | Folder | Status |
+| # | Jurisdiction | State | Folder |
 |---|---|---|---|---|
 | 01 | Village of Franklinville | NY | `01-NY-Village_of_Franklinville` 
 | 02 | City of Simpsonville | SC | `02-SC_City_of_Simpsonville` 
