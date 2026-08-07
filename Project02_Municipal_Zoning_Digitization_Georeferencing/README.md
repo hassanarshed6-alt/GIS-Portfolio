@@ -1,7 +1,7 @@
 # Project 16: Municipal Zoning Digitization & Georeferencing
 
 A multi-city series applying the same core GIS workflow — raster georeferencing
-and manual vector digitization — to real municipal zoning maps across five
+and manual vector digitization — to real municipal zoning maps across six
 U.S. towns, cities, and villages. Each source document arrived as a flat
 scanned image (PDF or JPEG) with no embedded coordinate reference system;
 each was georeferenced, digitized into a topologically clean vector layer,
@@ -12,12 +12,12 @@ as a final cartographic map.
 
 | # | Jurisdiction | State | Folder | Status |
 |---|---|---|---|---|
-| 01 | Village of Franklinville | NY | `01-village_of_franklinville` | ✅ Complete |
-| 02 | City of Simpsonville | SC | `02-sc_city_of_simpsonville` | ⬜ Pending |
-| 03 | Town of Fyffe | AL | `03-al_town_of_fyffe` | ⬜ Pending |
-| 04 | City of Pekin | IL | `04-il_city_of_pekin` | ⬜ Pending |
-| 05 | Summerville | SC | `05-sc_summerville` | ⬜ Pending |
-
+| 01 | Village of Franklinville | NY | `01-NY-Village_of_Franklinville` 
+| 02 | City of Simpsonville | SC | `02-SC_City_of_Simpsonville` 
+| 03 | Town of Fyffe | AL | `03-AL_Town_of_Fyffe` 
+| 04 | City of Pekin | IL | `04-IL_City_of_Pekin`
+| 05 | Town of Summerville | SC | `05-SC_Town_of_Summerville` 
+| 06 | City of Shawnee | OK | `06-OK_City_of_Shawnee` 
 Each subfolder is a self-contained case study with its own README covering
 that jurisdiction's specific ordinance, CRS/UTM zone, GCP count, feature
 count, and zoning classification results.
@@ -42,17 +42,20 @@ count, and zoning classification results.
 ## Repository structure
 
 ```
-16-municipal-zoning-digitization-georeferencing/
+Project02_Municipal_Zoning_Digitization_Georeferencing/
 ├── README.md                              (this file)
-├── 01-village_of_franklinville/
-│   ├── data/{source, georeferencing, vector}/
-│   ├── outputs/
+├── 01-NY-Village_of_Franklinville/
+│   ├── georeferencing/
 │   ├── images/
+│   ├── outputs/
+│   ├── source/
+│   ├── vector/
 │   └── README.md
-├── 02-sc_city_of_simpsonville/
-├── 03-al_town_of_fyffe/
-├── 04-il_city_of_pekin/
-└── 05-sc_summerville/
+├── 02-SC_City_of_Simpsonville/
+├── 03-AL_Town_of_Fyffe/
+├── 04-IL_City_of_Pekin/
+└── 05-SC_Town_of_Summerville/
+└── 06-OK_City_of_Shawnee/
 ```
 
 ## Tools & skills demonstrated across the series
