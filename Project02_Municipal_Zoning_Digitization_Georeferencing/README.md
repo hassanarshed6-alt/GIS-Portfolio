@@ -1,4 +1,4 @@
-# Project 16: Municipal Zoning Digitization & Georeferencing
+# Project02_Municipal_Zoning_Digitization_Georeferencing
 
 A multi-city series applying the same core GIS workflow — raster georeferencing
 and manual vector digitization — to real municipal zoning maps across six
