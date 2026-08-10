@@ -13,7 +13,7 @@ reference system into an accurate, attributed GIS layer.
 | **Location** | Village of Franklinville, Cattaraugus County, New York, USA |
 | **Source document** | Scanned zoning map, JPEG, no embedded CRS |
 | **Target CRS** | EPSG:32617 — WGS 84 / UTM Zone 17N |
-| **Georeferencing** | 4 GCPs, Polynomial 1 transformation, ~0 mean error |
+| **Georeferencing** | 3 GCPs, Polynomial 1 transformation, ~0 mean error |
 | **Digitized features** | 77 polygons across 7 zoning classes |
 | **Software** | QGIS (XYZ Tiles, Georeferencer, Digitizing toolbar, Symbology) |
 
