@@ -54,7 +54,7 @@ With the target CRS known, I opened QGIS's **Georeferencer** tool
 (`source/village_of_franklinville_zoning_map.jpg`):
 
 1. Set the **Target CRS** to EPSG:32617 in the Georeferencer settings.
-2. Placed **4 Ground Control Points (GCPs)**, each time clicking a
+2. Placed **3 Ground Control Points (GCPs)**, each time clicking a
    recognizable feature on the scanned map (a road intersection or block
    corner) and then clicking the matching real-world location on the
    Google Satellite basemap, entering its map coordinates.
