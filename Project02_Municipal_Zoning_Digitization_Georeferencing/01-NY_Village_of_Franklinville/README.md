@@ -50,7 +50,7 @@ Franklinville:
 ## Step 3 — Georeference the source raster
 
 With the target CRS known, I opened QGIS's **Georeferencer** tool
-(`Raster → Georeferencer`) and loaded the raw scan
+(`Layer → Georeferencer`) and loaded the raw scan
 (`source/village_of_franklinville_zoning_map.jpg`):
 
 1. Set the **Target CRS** to EPSG:32617 in the Georeferencer settings.
