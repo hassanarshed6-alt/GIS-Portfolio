@@ -36,13 +36,13 @@ Each subfolder is a self-contained case study with its own **README.md** documen
    Satellite XYZ basemap in QGIS Georeferencer using 3-6 GCPs and a
    linear or polynomial transformation, exporting a georeferenced GeoTIFF.
 3. **Digitization** — create a new GeoPackage (MultiPolygon) layer and
-   digitize zoning boundaries using the split tool, ring tool, snapping,
-   topology checking, and vertex editing.
+   digitize zoning boundaries using the split tool, ring tool, snapping along,
+   with topology checking and tracing enabled, and vertex editing.
 4. **Ordinance research & attribution** — research the jurisdiction's zoning
    ordinance to correctly attribute each polygon with `zone_code` and
    `zone_name`, alongside state/town identifiers.
 5. **Symbology & output** — apply categorized symbology by `zone_code` and
-   export a final print-quality map with legend, title, and scale bar.
+   export a final print-quality map with legend, title, north arrow and scale bar.
 
 ## Repository structure
 
