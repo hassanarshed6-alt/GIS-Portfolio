@@ -111,7 +111,8 @@ with:
 | `zone_code` | Official zoning code per the ordinance (e.g. `R-1`, `B-2`) |
 | `zone_name` | Full official district name per the ordinance |
 
-Populated attribute table showing zone_code and zone_name for all 77 features (images/3.Attribute Table.png)
+![Populated attribute table showing zone_code and zone_name for all 77 features](images/3.Attribute Table.png)
+
 
 **Zoning classification results:**
 
