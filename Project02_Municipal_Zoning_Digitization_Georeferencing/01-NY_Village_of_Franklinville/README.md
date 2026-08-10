@@ -68,7 +68,7 @@ With the target CRS known, I opened QGIS's **Georeferencer** tool
    (`georeferencing/village_of_franklinville_zoning_map_modified.tif`) — and
    saved the GCP set as (`georeferencing/village_of_franklinville_zoning_map_GCPs.points`).
 
-![Georeferencer showing the raster, GCPs, and Polynomial 1 transformation settings targeting EPSG:32617](images/1.Georeferencing (Raster map, GCPs (3) & Transformation settings).png)
+![Georeferencer showing the raster, GCPs, and Polynomial 1 transformation settings targeting EPSG:32617](images/1.Georeferencing_(Raster_map,_GCPs_(3)_&_Transformation_settings).png)
 
 ## Step 4 — Digitize zoning boundaries
 
@@ -111,7 +111,7 @@ with:
 | `zone_code` | Official zoning code per the ordinance (e.g. `R-1`, `B-2`) |
 | `zone_name` | Full official district name per the ordinance |
 
-![Populated attribute table showing zone_code and zone_name for all 77 features](images/3.Attribute Table.png)
+![Populated attribute table showing zone_code and zone_name for all 77 features](images/3.Attribute_Table.png)
 
 
 **Zoning classification results:**
