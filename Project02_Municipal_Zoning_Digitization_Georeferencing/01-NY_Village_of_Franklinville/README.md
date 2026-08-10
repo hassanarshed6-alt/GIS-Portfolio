@@ -62,18 +62,18 @@ With the target CRS known, I opened QGIS's **Georeferencer** tool
    affine transform, appropriate given the source map's regular, undistorted
    layout).
 4. Ran the transformation. The resulting **mean error was effectively 0**,
-   meaning the 4 GCPs were highly consistent with each other and the source
+   meaning the 3 GCPs were highly consistent with each other and the source
    map aligned cleanly onto real-world coordinates.
 5. Exported the result as a georeferenced GeoTIFF —
-   `georeferencing/village_of_franklinville_zoning_map_modified.tif` — and
-   saved the GCP set as `georeferencing/village_of_franklinville_zoning_map_GCPs.points`.
+   (`georeferencing/village_of_franklinville_zoning_map_modified.tif`) — and
+   saved the GCP set as (`georeferencing/village_of_franklinville_zoning_map_GCPs.points`).
 
-![Georeferencer showing the raster, GCPs, and Polynomial 1 transformation settings targeting EPSG:32617](images/03_georeferencing.png)
+![Georeferencer showing the raster, GCPs, and Polynomial 1 transformation settings targeting EPSG:32617](images/1.Georeferencing (Raster map, GCPs (3) & Transformation settings).png)
 
 ## Step 4 — Digitize zoning boundaries
 
 With the raster now accurately placed in real-world space, I created a new
-**GeoPackage** layer (`vector/ny_village_of_franklinville_fixed_geom.gpkg`)
+**GeoPackage** layer (`vector/ny_village_of_franklinville.gpkg`)
 with **MultiPolygon** geometry in EPSG:32617, and began tracing zoning
 boundaries directly over the aligned raster:
 
@@ -92,7 +92,7 @@ boundaries directly over the aligned raster:
 5. **Vertex tool** — used at the end to fine-tune individual vertices where
    a boundary needed to hug the raster more precisely.
 
-![Digitizing zoning polygons over the georeferenced raster and satellite basemap](images/02_digitizing.png)
+![Digitizing zoning polygons over the georeferenced raster and satellite basemap](images/2.Digitizing.png)
 
 ## Step 5 — Research the zoning ordinance and attribute every feature
 
@@ -111,7 +111,7 @@ with:
 | `zone_code` | Official zoning code per the ordinance (e.g. `R-1`, `B-2`) |
 | `zone_name` | Full official district name per the ordinance |
 
-![Populated attribute table showing zone_code and zone_name for all 77 features](images/01_attribute_table.png)
+![Populated attribute table showing zone_code and zone_name for all 77 features](images/3.Attribute Table.png)
 
 **Zoning classification results:**
 
@@ -139,7 +139,7 @@ with:
    **Print Layout**, added a title, legend, north arrow, and scale bar, and
    exported the final map as `outputs/Final_Georef_Dig_Map.png`.
 
-![Categorized symbology configuration by zone_code](images/04_symbology.png)
+![Categorized symbology configuration by zone_code](images/4.Symbology.png)
 
 ---
 
@@ -153,10 +153,10 @@ with:
 │   ├── village_of_franklinville_zoning_map_GCPs.points
 │   └── village_of_franklinville_zoning_map_modified.tif
 ├── vector/             # Final GeoPackage + QGIS style file
-│   ├── ny_village_of_franklinville_fixed_geom.gpkg
-│   └── ny_village_of_franklinville_fixed_geom_style.qml
+│   ├── ny_village_of_franklinville.gpkg
+│   └── ny_village_of_franklinville_style.qml
 ├── outputs/            # Final cartographed map (PNG)
-│   └── Final_Georef_Dig_Map.png
+│   └── ny_village_of_franklinville_finalmap2.png
 ├── images/             # Workflow screenshots referenced in this README
 └── README.md
 ```
