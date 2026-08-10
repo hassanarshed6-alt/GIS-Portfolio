@@ -92,7 +92,7 @@ boundaries directly over the aligned raster:
 5. **Vertex tool** — used at the end to fine-tune individual vertices where
    a boundary needed to hug the raster more precisely.
 
-![Digitizing zoning polygons over the georeferenced raster and satellite basemap](images/2.Digitizing.png)
+[Digitizing zoning polygons over the georeferenced raster and satellite basemap](images/2.Digitizing.png)
 
 ## Step 5 — Research the zoning ordinance and attribute every feature
 
