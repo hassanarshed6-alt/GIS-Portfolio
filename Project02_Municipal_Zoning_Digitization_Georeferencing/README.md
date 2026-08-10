@@ -12,7 +12,7 @@ as a final cartographic map.
 
 | # | Jurisdiction | State | Folder |
 |:-:|--------------|:-----:|--------|
-| 01 | Village of Franklinville | NY | `01-NY-Village_of_Franklinville` |
+| 01 | (/01-NY_Village_of_Franklinville) | NY | `01-NY-Village_of_Franklinville` |
 | 02 | City of Simpsonville | SC | `02-SC_City_of_Simpsonville` |
 | 03 | Town of Fyffe | AL | `03-AL_Town_of_Fyffe` |
 | 04 | City of Pekin | IL | `04-IL_City_of_Pekin` |
