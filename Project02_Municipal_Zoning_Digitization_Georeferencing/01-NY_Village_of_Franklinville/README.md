@@ -4,7 +4,7 @@ Georeferencing and vector digitization of the Village of Franklinville's
 scanned zoning map, converting a static raster document with no coordinate
 reference system into an accurate, attributed GIS layer.
 
-![Final digitized zoning map of Franklinville, NY](outputs/ny_village_of_franklinville_finalmap.png)
+![Final digitized zoning map of Franklinville, NY](outputs/ny_village_of_franklinville_finalmap2.png)
 
 ## Project summary
 
