@@ -98,8 +98,8 @@ boundaries directly over the aligned raster:
 
 Before filling in attributes, I researched Franklinville's actual zoning
 ordinance so that the zone codes on the scanned map (abbreviations like
-`R-1`, `B-2`) were paired with their **correct, official district names**
-rather than guessed. Each of the 77 digitized polygons was then attributed
+`R-1`, `B-2`) can be compared with **correct, official district names**
+,the rest missing zones were added according to **correct, official district names** . Each of the 77 digitized polygons was then attributed
 with:
 
 | Field | Description |
