@@ -77,18 +77,18 @@ With the raster now accurately placed in real-world space, I created a new
 with **MultiPolygon** geometry in EPSG:32617, and began tracing zoning
 boundaries directly over the aligned raster:
 
-1. **Boundary tracing** — drew the outer village limit first as a single
-   large polygon.
-2. **Split tool** — divided that outer boundary into individual zoning
-   blocks/parcels by drawing split lines along the zone boundaries visible
-   on the source map.
-3. **Ring tool** — used for zones that sit *entirely inside* another zone's
-   boundary (a polygon-in-polygon case). The split tool can't handle this,
-   because a split line has to exit the parent polygon; the ring tool lets
-   you draw an interior ring directly instead.
-4. **Snapping + topology checking + tracing** — kept all three enabled
-   throughout digitizing so adjacent polygon edges snapped exactly to each
-   other, preventing slivers, gaps, or overlaps between neighboring zones.
+1. **Add Polygon Feature tool** — traced each individual zoning parcel/block
+   as its own polygon directly over the raster, one feature at a time,
+   rather than tracing one large boundary and dividing it up afterward.
+2. **Snapping (Magnet mode)** — kept snapping enabled throughout so that
+   every new polygon's edges locked precisely onto the shared edges of
+   polygons already digitized next to it.
+3. **Topology checking** — enabled alongside snapping to actively prevent
+   overlaps or gaps from forming between adjacent zoning polygons as each
+   new one was added.
+4. **Tracing mode** — used to trace along existing digitized edges when a
+   new polygon shared a boundary with one already drawn, instead of
+   re-clicking every shared vertex by hand.
 5. **Vertex tool** — used at the end to fine-tune individual vertices where
    a boundary needed to hug the raster more precisely.
 
