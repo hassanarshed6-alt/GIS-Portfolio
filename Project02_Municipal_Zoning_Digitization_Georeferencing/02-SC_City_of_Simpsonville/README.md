@@ -38,7 +38,7 @@ same way as before, via **XYZ Tiles**) before starting to digitize.
 
 ## Step 2 — Digitize land-use boundaries
 
-I created a new **GeoPackage** layer (`vector/sc_city_of_simpsonville_1_.gpkg`)
+I created a new **GeoPackage** layer (`vector/sc_city_of_simpsonville(1).gpkg`)
 with **MultiPolygon** geometry, and digitized directly over the loaded PDF
 using the same boundary-trace-then-split-and-ring method as the rest of this
 series:
@@ -97,11 +97,11 @@ Each of the 72 polygons was attributed with:
    matched each color to the source PDF's own legend colors as closely as
    possible for consistency with the original.
 3. Saved the styling separately as
-   `vector/sc_city_of_simpsonville_1__symbology.qml`.
+   `vector/sc_city_of_simpsonville(1)__symbology.qml`.
 4. Composited the styled layer over satellite imagery and exported the
    final map, including the source map's own title block and logo
    alongside the digitized layer, as
-   `outputs/sc_city_of_simpsonville_1__final_image.png`.
+   `outputs/sc_city_of_simpsonville(1)__final_image.png`.
 
 ![Categorized symbology configuration by zone_code, matched to the source legend](images/2.Symbology.png)
 
@@ -114,10 +114,10 @@ Each of the 72 polygons was attributed with:
 ├── source/            # Original Comprehensive Plan FLUM (already georeferenced PDF)
 │   └── 8__Simpsonville_SC_2040_Comprehensive_Plan_FLUM_Updated_2025.pdf
 ├── vector/             # Final GeoPackage + QGIS style file
-│   ├── sc_city_of_simpsonville_1_.gpkg
-│   └── sc_city_of_simpsonville_1__symbology.qml
+│   ├── sc_city_of_simpsonville(1)_.gpkg
+│   └── sc_city_of_simpsonville(1)__symbology.qml
 ├── outputs/            # Final cartographed map (PNG)
-│   └── sc_city_of_simpsonville_1__final_image.png
+│   └── sc_city_of_simpsonville(1)__final_image.png
 ├── images/             # Workflow screenshots referenced in this README
 └── README.md
 ```
