@@ -13,7 +13,7 @@ digitized, attributed vector layer.
 > a zoning map — kept in this series because the GIS workflow (raster →
 > digitized, attributed vector) is identical.
 
-![Final digitized Future Land Use map of Simpsonville, SC](outputs/sc_city_of_simpsonville_1__final_image.png)
+![Final digitized Future Land Use map of Simpsonville, SC](outputs/sc_city_of_simpsonville(1)_final_image.png)
 
 ## Project summary
 
@@ -58,7 +58,7 @@ series:
 5. **Vertex tool** — used to fine-tune vertices where a boundary needed to
    hug the source PDF's shading more precisely.
 
-![Digitizing land-use polygons directly over the georeferenced source PDF](images/3_Digitization.png)
+![Digitizing land-use polygons directly over the georeferenced source PDF](images/3.Digitization.png)
 
 ## Step 3 — Attribute each feature
 
@@ -73,7 +73,7 @@ Each of the 72 polygons was attributed with:
 | `zone_code` | Abbreviated land-use code (e.g. `MIN`, `VAC`, `RAC`) |
 | `zone_name` | Full land-use category name matching the source map's legend |
 
-![Populated attribute table showing zone_code and zone_name for all 72 features](images/1_Attribute_Table.png)
+![Populated attribute table showing zone_code and zone_name for all 72 features](images/1.Attribute_Table.png)
 
 **Land-use classification results:**
 
@@ -103,7 +103,7 @@ Each of the 72 polygons was attributed with:
    alongside the digitized layer, as
    `outputs/sc_city_of_simpsonville_1__final_image.png`.
 
-![Categorized symbology configuration by zone_code, matched to the source legend](images/2_Symbology.png)
+![Categorized symbology configuration by zone_code, matched to the source legend](images/2.Symbology.png)
 
 ---
 
