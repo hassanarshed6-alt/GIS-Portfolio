@@ -7,7 +7,7 @@ Simpsonville — this case study skips the manual GCP/Georeferencer stage
 entirely and goes straight from source PDF to digitized, attributed vector
 layer.
 
-![Final digitized zoning map of Fyffe, AL](outputs/al_town_of_fyffe_1__final_image.png)
+![Final digitized zoning map of Fyffe, AL](outputs/al_town_of_fyffe(1)_final_image.png)
 
 ## Project summary
 
@@ -32,7 +32,7 @@ Google's) before beginning digitization.
 
 ## Step 2 — Digitize zoning boundaries
 
-I created a new **GeoPackage** layer (`vector/al_town_of_fyffe_1_.gpkg`)
+I created a new **GeoPackage** layer (`al_town_of_fyffe(1).gpkg`)
 with **MultiPolygon** geometry, and digitized directly over the loaded PDF
 using the same boundary-trace-then-split-and-ring method as the rest of
 this series:
@@ -53,7 +53,7 @@ this series:
 5. **Vertex tool** — used to fine-tune vertices where a boundary needed to
    hug the source PDF's shading more precisely.
 
-![Digitizing zoning polygons directly over the georeferenced source PDF](images/3_Digitization.png)
+![Digitizing zoning polygons directly over the georeferenced source PDF](images/3.Digitization.png)
 
 ## Step 3 — Attribute each feature
 
@@ -68,7 +68,7 @@ Each of the 5 polygons was attributed with:
 | `zone_code` | Zoning code as shown in the source map's legend (e.g. `B-1`, `R-1`) |
 | `zone_name` | Full district name where available |
 
-![Populated attribute table showing zone_code and zone_name for all 5 features](images/2_Attribute_Table.png)
+![Populated attribute table showing zone_code and zone_name for all 5 features](images/2.Attribute_Table.png)
 
 **Zoning classification results:**
 
@@ -90,9 +90,9 @@ Each of the 5 polygons was attributed with:
    consistency with the original DRAFT map.
 3. Saved the styling separately as `vector/al_town_of_fyffe_styling.qml`.
 4. Composited the styled layer over satellite imagery and exported the
-   final map as `outputs/al_town_of_fyffe_1__final_image.png`.
+   final map as `outputs/al_town_of_fyffe(1)_final_image.png`.
 
-![Categorized symbology configuration by zone_code, matched to the source legend](images/1_Symbology.png)
+![Categorized symbology configuration by zone_code, matched to the source legend](images/1.Symbology.png)
 
 ---
 
@@ -101,12 +101,12 @@ Each of the 5 polygons was attributed with:
 ```
 03-al_town_of_fyffe/
 ├── source/            # Original DRAFT zoning map (already georeferenced PDF)
-│   └── 2021_Fyffe_Zoning_Map__1_.pdf
+│   └── 2021 Fyffe Zoning Map (1).pdf
 ├── vector/             # Final GeoPackage + QGIS style file
-│   ├── al_town_of_fyffe_1_.gpkg
+│   ├── al_town_of_fyffe(1).gpkg
 │   └── al_town_of_fyffe_styling.qml
 ├── outputs/            # Final cartographed map (PNG)
-│   └── al_town_of_fyffe_1__final_image.png
+│   └── al_town_of_fyffe(1)_final_image.png
 ├── images/             # Workflow screenshots referenced in this README
 └── README.md
 ```
